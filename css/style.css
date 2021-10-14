@@ -1,0 +1,88 @@
+body{
+    overflow-x: hidden;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .navbar .navbar-brand{
+    color: #413e66;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.wrapper .navbar-nav li a{
+    text-transform: uppercase;
+    font-size: 15px;
+  
+    font-weight: 600;
+}
+
+.wrapper .navbar-nav li a.active{
+    color: #1bb1dc !important;
+}
+.wrapper .section{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: #f5f8fd ;
+    background-size: cover;
+    padding-top: 110px;
+}
+.wrapper #hero .hero-text h3{
+        color: #413e66;
+        margin-bottom: 40px;
+        font-size: 48px;
+        font-weight: 700;
+}
+.wrapper #hero .hero-text span {
+    color: #1bb1dc;
+}
+.wrapper #hero .hero-text button.cta-button{
+    background-color: #1bb1dc;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.55rem 2rem;
+}
+.wrapper  .section-text h4{
+    color: #413e66;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.wrapper .section-text p{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    padding-bottom: 60px;
+    color: #535074;
+    width: 50%;
+}
+.wrapper .service-container .service{
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+.wrapper .service-container .service > * {
+    margin: 1rem auto;
+}
+.wrapper .service-container .service-icon{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.wrapper .service-container .service-icon .fa{
+    font-size: 25px;
+}
